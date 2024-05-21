@@ -40,9 +40,9 @@ def profile(request):
     
     return render(request,'users/profile.html',context)
 
-# def logout_view(request):
-#     logout(request)
-#     return render(request,'users/logout.html')
+def logout_view(request):
+    logout(request)
+    return render(request,'users/logout.html')
 
 # valid message options:
 # message.debug
